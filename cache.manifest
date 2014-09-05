@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# rev 20140904135000
+
+CACHE:
+./css/css.min.css
+./index.html
+./js/js.min.js
+./img/characters.png
+./img/icon.png
+./img/rune-sheet.png
+./img/splash.png
+./img/wizard.png
+
+NETWORK:
+*

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html manifest="./cache.manifest">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Dragon's Crown Runeodex</title>
+		<meta name="description" content="Find rune combinations based one specific runes carved into the world.">
+		<meta name="viewport" content="width=500px,user-scalable=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="mobile-web-app-capable" content="yes">
+	    <link rel="apple-touch-icon" href="img/icon.png">
+	    <link rel="shortcut-icon" href="img/icon.png">
+	    <link rel="shortcut icon" href="img/icon.png">
+		<link rel="stylesheet" href="css/css.min.css">
+		<script src="js/js.min.js"></script>
+	</head>
+<body>
+	<div id="view">
+		<div id="results-container">
+			<table id="results">
+				<tr class="welcome">
+					<td colspan="2">
+						<img src="img/splash.png" alt="Dragons Crown Runeodex" /><br/>Tap or click runes to get started.
+					</td>
+				</tr>
+				<tr class="no-results" style="display:none;">
+					<td colspan="2">
+						You are unable to cast any spells with the provided runes.
+						<div class="selected-runes"></div>
+					</td>
+				</tr>
+				<tr class="info" style="display:none;">
+					<td colspan="2">
+						<b>Dragons Crown Runeodex</b>
+						<div class="character amazon dwarf elf fighter sorceress wizard"></div>
+						Find possible spells based on the runes carved in the world. Don't worry game doesn't require the runes to be clicked in order. Most mission based runes have very limited areas in which they can be cast and are slightly darker, you van brighten them back up by tapping or placing your cursor over them.
+						<br/><br/>
+						This has been a quick side project and not extensively tested for device compatibility it should however work on most smart phones, it is designed to work in portrait mode pretty much exclusively. The runeodex is open source, you can find it on github at <a href="https://github.com/pgooch/dragons-crown-runeodex" target="_blank">pgooch/dragons-crown-runeodex</a>.
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="keyboard">
+			<div>
+				<span class="key rune carved T">T</span><span class="key rune carved F">F</span><span class="key rune carved B">B</span><span class="key rune carved L">L</span><span class="key rune carved S">S</span><span class="key rune carved W">W</span>
+			</div>
+			<div>
+				<span class="key rune carved C">C</span><span class="key rune carved G">G</span><span class="key rune carved I">I</span><span class="key rune carved O">O</span><span class="key rune carved P">P</span>
+			</div>
+			<div>
+				<span class="key rune alt info">?</span><span class="key rune carved A">A</span><span class="key rune carved H">H</span><span class="key rune carved K">K</span><span class="key rune carved Z">Z</span><span class="key rune alt clear">CLR</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
