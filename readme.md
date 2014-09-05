@@ -6,7 +6,7 @@ Find spells you can cast with runes carved in the world with this simple little 
 Just a browser, this uses no server-side scripting. Your browser will need to support cache manifests if you want it to work offline. It was primarily designed to run on a phone so the interface is strongly geared towards that, it even has a custom web bookmark icon.
 
 ### Example
-You can see and use it straight from github: [rawgit.com/pgooch/Dragons-Crown-Runeodex/master/index.html) however that will not be offline capable. If you want to be able to use it without an internet connection you can use the copy found here: [phillipgooch.com/github-examples/dragons-crown-runeodex/](http://phillipgooch.com/github-examples/dragons-crown-runeodex/). Both copies are the same (it's simply an issue without how rawgit.com servers the other one).
+You can see and use it straight from github: [rawgit.com/pgooch/Dragons-Crown-Runeodex/master/index.html) (however adding this one to your homescren may not include the custom icon) or here: [phillipgooch.com/github-examples/dragons-crown-runeodex/](http://phillipgooch.com/github-examples/dragons-crown-runeodex/).
 
 ### Setup
 Extract and go, no setup required. Once you load it up simply tap the runes you found carved into the world to get a list of spells you can cast. This will assume that you have all the runes, but that should be no problem once you get the first one.
